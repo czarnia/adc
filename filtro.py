@@ -34,7 +34,8 @@ def es_un_valor_comercial(valor):
     return False
 
 
-def devolver_valores_filtro(Wo, Q, Ho):
+def devolver_valores_filtro(Fo, Q, Ho):
+    Wo = Fo * 2 * 3.141592
     valores_posibles = []
     Wo_2 = Wo ** 2
     nc = nc1
